@@ -7,7 +7,7 @@ which are misuse-resistant, meaning it is hard to get wrong.
 
 For this workshop we will be doing all our programming in Javascript on Node.js or in Python,
 but since `libsodium` is written in C, we will be using the bindings called
-`sodium-native` (node) or pynacl (Python). The bindings contain prebuilts for most common platforms, so
+`sodium-native` (node) or `pynacl`/`libnacl` (Python). The bindings contain prebuilts for most common platforms, so
 you should not have to worry about compiling and tooling. You will also see that
 the bindings are a very thin wrapper, so the API might seem a bit foreign or
 very low-level, but this is a feature, as it gives you complete control over
