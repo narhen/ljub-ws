@@ -1,14 +1,13 @@
 # 00. Welcome
 
 In this workshop you will learn about cryptographic engineering without too much
-mathematics. We will be learning the cryptographic library called `libsodium`,
-which is in contrast to the `crypto` module in Node.js core, which is based on
-`openssl`. `libsodium` is a collection of high-level cryptographic primitives
+mathematics. We will be learning the cryptographic library called `libsodium`. 
+`libsodium` is a collection of high-level cryptographic primitives
 which are misuse-resistant, meaning it is hard to get wrong.
 
-For this workshop we will be doing all our programming in Javascript on Node.js,
+For this workshop we will be doing all our programming in Javascript on Node.js or in Python,
 but since `libsodium` is written in C, we will be using the bindings called
-`sodium-native`. The bindings contain prebuilts for most common platforms, so
+`sodium-native` (node) or pynacl (Python). The bindings contain prebuilts for most common platforms, so
 you should not have to worry about compiling and tooling. You will also see that
 the bindings are a very thin wrapper, so the API might seem a bit foreign or
 very low-level, but this is a feature, as it gives you complete control over
